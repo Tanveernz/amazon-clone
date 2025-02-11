@@ -1,9 +1,11 @@
-const product= {
-    title : "Parker jotter",
-    rating : 4,
-    offer : 5,
-    price : 270,
-};
+let marks =[85,97,44,37,76,60];
 
-console.log (product);
+let sum = 0;
+ 
+for (let val of marks) {
+    sum += val;
+}
+
+let avg = sum / marks.length;
+console.log(`avg marks of the class = ${avg}`);
 
