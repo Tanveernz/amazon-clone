@@ -1,12 +1,5 @@
-const profile = {
-    name: "Tanveer Nawaz",
-    fathername: "Nazeer Ahmed",
-    Mothername: "Shahjhaan Begum",
-    sistersname: "summaiya amreen",
-    ocupation: "Business",
-    companyname: "Tipu agency",
-    age: 26,
-    anyhobby: "video games",
-};
+let tan = 6;
+let mun = 5;
 
-console.log (profile["companyname"]);
+
+ console.log ("tan1 && mun2 = ", tan > mun && mun === 5 ); 
